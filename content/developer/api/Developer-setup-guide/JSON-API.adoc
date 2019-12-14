@@ -48,6 +48,10 @@ Now update its value with generating a new one using `base64_encode(random_bytes
 
 If you need more information about this issue, https://oauth2.thephpleague.com/v5-security-improvements/[please visit this page].
 
+=== Update the cleint secret
+Go back to the oauth client credentials in suitecrm admin as set up in  [configure authentication]https://docs.suitecrm.com/developer/api/developer-setup-guide/configure-authentication/
+click "edit" and change the secret to your new OAUTH2_ENCRYPTION_KEY
+
 == Available parameters
 
 According to JsonApi specification, the available parameters are the following depending on the GET endpoint:
